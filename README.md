@@ -17,5 +17,7 @@ ds - Duos
 
 ### Examples
 ./s3.sh xx ~/android10
+
 ./s3.sh jv ~/lineage17
+
 ./s3.sh ds ~/android
