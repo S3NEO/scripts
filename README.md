@@ -7,7 +7,9 @@ Changes revision to build.
 It deletes other revision's files, and copying your revision files.
 
 ### Usage
+```bash
 ./s3.sh 'revision' 'android source directory'
+```
 #### Avalible revisions
 xx - Sony camera
 
@@ -16,8 +18,13 @@ jv - Samsung camera
 ds - Duos
 
 ### Examples
+```bash
+# Sony camera, build dir is ~/android10
 ./s3.sh xx ~/android10
 
+# Samsung camera, build dir is ~/lineage17
 ./s3.sh jv ~/lineage17
 
+# Duos, build dir is ~/android
 ./s3.sh ds ~/android
+```
