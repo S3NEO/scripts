@@ -28,3 +28,39 @@ ds - Duos
 # Duos, build dir is ~/android
 ./s3.sh ds ~/android
 ```
+
+## build_android
+### Description
+Put this script into android source dir, and execute it. It will build android.
+### How it works?
+Builds android from source.
+
+### Usage
+```bash
+./build.sh 'device' 'clean/installclean/build' 'log/wolog'
+```
+clean - make clean
+
+installclean - make installclean
+
+build - dirty build
+
+wolog - without logging
+
+log - with logging
+
+#### Devices
+s3ve3gxx - Sony camera
+
+s3ve3gjv - Samsung camera
+
+s3ve3gds - Duos
+
+### Examples
+```bash
+# Sony camera, installclean, without log
+./build.sh s3ve3gxx installclean wolog
+
+# Samsung camera, clean, with log
+./build.sh s3ve3gjv clean log
+```
