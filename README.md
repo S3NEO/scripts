@@ -4,7 +4,7 @@
 ### Description
 Changes revision to build.
 ### How it works?
-It deletes other revision's files, and copying your revision files.
+It deletes other revision's files, and cloning from git your revision files.
 
 ### Usage
 ```bash
