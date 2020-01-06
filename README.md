@@ -64,3 +64,14 @@ s3ve3gds - Duos
 # Samsung camera, clean, with log
 ./build.sh s3ve3gjv clean log
 ```
+## picks
+### Description
+Do repopick commands for LOS 17.1 fixes
+### How it works?
+It does repopick commands.
+### Usage
+Put this script into LOS 17.1 sources folder
+
+```bash
+./picks.sh
+```
