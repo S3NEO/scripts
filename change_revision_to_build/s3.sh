@@ -41,7 +41,7 @@ esac
 if [ -d $2 ]; then
     # Deletes and git clones
     rm -rf $FOLDERSTODELETE
-    git clone -b lineage-17.1 $GITVENDORURL $2/device/samsung/s3ve3g$1
+    git clone -b lineage-17.1 $GITVENDORURL $2/vendor/samsung/s3ve3g$1
     git clone -b lineage-17.1 $GITDEVICEURL $2/device/samsung/s3ve3g$1
     
     echo "Done. Changed revision for build to s3ve3g$1"
